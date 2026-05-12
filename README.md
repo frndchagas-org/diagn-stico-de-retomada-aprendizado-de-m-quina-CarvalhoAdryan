@@ -77,55 +77,89 @@ Se não conseguir terminar tudo, registre até onde chegou e qual erro apareceu.
 Cole aqui os principais resultados do seu código.
 
 ```text
+=== Regressão logística ===
+Acurácia treino: 0.958
+Acurácia teste: 0.958
+Precisão teste: 0.947
+Recall teste: 0.989
+F1-score teste: 0.967
+Matriz de confusão:
+[[48  5]
+ [ 1 89]]
+Probabilidades das 5 primeiras amostras de teste:
+[[0.01854698 0.98145302]
+ [0.99816861 0.00183139]
+ [0.17716357 0.82283643]
+ [0.2344741  0.7655259 ]
+ [0.19796601 0.80203399]]
 
+=== Árvore de decisão ===
+Acurácia treino: 1.000
+Acurácia teste: 0.923
+Precisão teste: 0.954
+Recall teste: 0.922
+F1-score teste: 0.938
+Matriz de confusão:
+[[49  4]
+ [ 7 83]]
+Probabilidades das 5 primeiras amostras de teste:
+[[0. 1.]
+ [1. 0.]
+ [1. 0.]
+ [0. 1.]
+ [0. 1.]]
 ```
 
 ### Interpretação
 
 Qual modelo generalizou melhor? Explique usando as métricas e a comparação entre treino e teste.
 
-Resposta:
+Resposta:Nesse caso o modelo logistico generalizou melhor, o resultado obtido no teste foi igual ao do treino, o que indica boa memorização/identificação de padrões,
+mesmo que a arvore também tenha tido um bom resulado, a diferença entre teste e treino é maior.
 
 ## 5. Probabilidade e interpretação
 
-Escolha um dos modelos treinados e responda:
+Escolha um dos modelos treinados e responda: logistico
 
 1. O modelo produz probabilidade com `predict_proba()`?
 2. O que significa uma probabilidade alta para uma classe?
 3. Probabilidade alta garante que a previsão está correta? Explique.
 4. Em um problema real, qual seria o risco de confiar cegamente nessa previsão?
 
-Resposta:
+Resposta: Sim. Significa maior chance de ser a predição correta, mas assim como todo modelo não há como indicar uma previsão correta com 100% de certeza.
+Alto, não se confia cegamente em predição nenhuma, existem milhares de outros fatores que podem não ter sido considerados.
 
 ## 6. Generalização
 
-Compare treino e teste:
+Compare treino e teste: 
 
-1. Há sinal de overfitting?
-2. Há sinal de underfitting?
+1. Há sinal de overfitting? 
+2. Há sinal de underfitting? 
 3. O que você tentaria mudar para melhorar o resultado?
-4. O que você precisaria estudar melhor para responder com mais segurança?
+4. O que você precisaria estudar melhor para responder com mais segurança? Interpretação de dados e termos, tecnicas. Pois não lembro nem o que é overfitting.
 
-Resposta:
+Resposta: 4. Interpretação/compreensão de dados/resultados e termos, tecnicas. Pois não lembro nem o que é overfitting.
 
 ## 7. Ponto de dificuldade
 
-Escolha um tópico da lista inicial e escreva:
+Escolha um tópico da lista inicial e escreva: overfitting e underfitting
 
-1. o que você entende dele;
-2. onde você se confunde;
-3. que tipo de explicação ajudaria: exemplo no quadro, notebook guiado, exercício curto, revisão matemática, visualização ou projeto pequeno.
+1. o que você entende dele; 
+2. onde você se confunde; 
+3. que tipo de explicação ajudaria: 
 
-Resposta:
+Resposta: 1. Algo sobre os testes e treinos, mas não lembro a definição correta/exata.
+2. Preciso rever tudo.
+3. exemplo no quadro, exercício curto, visualização ou projeto pequeno.
 
 ## 8. Uso de IA, se houver
 
 Se você usou IA depois da primeira tentativa, registre:
 
 ```text
-Pergunta feita:
-Resumo da resposta:
-Como eu verifiquei:
+Pergunta feita: como eu sei que um modelo de aprendizado generalizou bem?
+Resumo da resposta: Um modelo de aprendizado de máquina “generalizou bem” quando ele consegue ter um bom desempenho em dados novos, e não apenas nos dados usados no treinamento.
+Como eu verifiquei: 
 O que eu alterei na minha resposta:
 O que ainda não entendi:
 ```
