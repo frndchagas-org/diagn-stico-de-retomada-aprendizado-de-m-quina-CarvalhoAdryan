@@ -11,24 +11,24 @@ Prazo: 11/05/2026 às 23:59, horário de Fortaleza.
 
 Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi ou não tenho certeza.
 
-- vetores, matrizes e produto escalar:
-- média, desvio padrão e correlação:
-- probabilidade condicional e Teorema de Bayes:
-- regressão linear:
-- classificação supervisionada:
-- treino, teste e validação:
-- normalização ou padronização de dados:
-- KNN:
-- árvore de decisão:
-- matriz de confusão:
-- acurácia, precisão, recall e F1-score:
-- overfitting e underfitting:
-- validação cruzada:
-- Random Forest:
-- XGBoost ou boosting:
-- `predict_proba()`:
-- SQL/ETL aplicado a dados:
-- simulação de Monte Carlo:
+- vetores, matrizes e produto escalar: lembro bem
+- média, desvio padrão e correlação:lembro bem
+- probabilidade condicional e Teorema de Bayes:não lembro
+- regressão linear:lembro parcialmente
+- classificação supervisionada:lembro parcialmente
+- treino, teste e validação:lembro bem
+- normalização ou padronização de dados:lembro bem
+- KNN:não lembro
+- árvore de decisão:lembro bem
+- matriz de confusão:lembro bem
+- acurácia, precisão, recall e F1-score:lembro bem
+- overfitting e underfitting:não lembro
+- validação cruzada:lembro parcialmente
+- Random Forest:lembro bem
+- XGBoost ou boosting:lembro bem
+- `predict_proba()`:lembro parcialmente
+- SQL/ETL aplicado a dados:lembro bem
+- simulação de Monte Carlo:lembro parcialmente
 
 ## 2. O que foi trabalhado antes
 
@@ -40,16 +40,22 @@ Explique, em 8 a 12 linhas:
 4. o que você só conseguiu fazer seguindo roteiro;
 5. qual assunto precisa ser retomado com mais urgência.
 
+Realizamos atividades usando numpy, pandas, matplot para os primeiros assuntos citados, atividades de resolução de algumas perguntas matematicas junto com teoria e aplicação. Foi feito um modelo de classificação com random forest e XGboost, as atividades eram feitas em grupo, normalmente ficava na parte escrita teorica, porém fiz a maior parte do codigo de regressão linear para predição de valor imobiliario, e o modelo de predição de doenças(especificamente asma). Grande parte foi feito com autonomia, utilizando IA apenas para busca de funções e aplicações de funções. Já tinhamos visto parte desse conteúdo na disciplina de IA. No ultimo trabalho cobrado na disciplina foi um modelo de predição para campeonato de futebol, onde utilizamos random forest e xgboost, o xgboost foi utilizado numa tentativa de prever empates. Nesse mesmo trabalho utilizamos a simulação de monte carlo, mas não foi minha parte então não lembro bem. KNN não lembro de ter sido explicada/ aprofundada. SQL/ETL também foi utilizado nesse último trabalho, porém já é algo que estou mais habituado de estudos autonomos e outras materias.
+
 ## 3. Conceitos essenciais
 
 Responda com suas palavras e dê um exemplo simples.
 
 1. O que é aprendizado supervisionado?
-2. O que é uma tarefa de classificação?
-3. O que são features e target?
-4. Para que serve separar treino e teste?
-5. O que é overfitting?
-6. Por que acurácia pode ser uma métrica enganosa?
+   Utilizar dados selecionados para treinamento de um modelo de predição, onde é explicada a relação entre os dados para que seja utilizado com dados novos e maior precisão. Ex. Treinar um modelo de prever doenças no coração com exames de pacientes que realmente tem e pacientes que não tem, para testar a precisão do modelo.
+3. O que é uma tarefa de classificação?
+   a pratica do aprendizado supervisionado
+5. O que são features e target?
+   caracteristicas e alvo(resultado real que o modelo precisa prever) ex. paciente que reamente tem o problema diagnosticado vs o que não tem
+7. Para que serve separar treino e teste?
+   Para que tenha certeza que ele pode identificar os mesmo padrões identificados no treino, só que no teste
+9. Por que acurácia pode ser uma métrica enganosa?
+    não lembro
 
 ## 4. Diagnóstico prático com Scikit-Learn
 
