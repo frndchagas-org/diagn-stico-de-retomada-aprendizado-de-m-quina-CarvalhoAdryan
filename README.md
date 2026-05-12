@@ -25,7 +25,7 @@ Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi
 - overfitting e underfitting:não lembro
 - validação cruzada:lembro parcialmente
 - Random Forest:lembro bem
-- XGBoost ou boosting:lembro bem
+- XGBoost ou boosting:lembro parcialmente
 - `predict_proba()`:lembro parcialmente
 - SQL/ETL aplicado a dados:lembro bem
 - simulação de Monte Carlo:lembro parcialmente
